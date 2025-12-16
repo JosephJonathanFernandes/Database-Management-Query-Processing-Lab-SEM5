@@ -59,6 +59,11 @@ Enhancement suggestions are welcome! Consider:
    ```bash
    git commit -m "feat: Add description of changes"
    ```
+   
+4. **Keep secrets out of git**
+   - Never commit passwords, API keys, connection strings, or `.env` files
+   - Use placeholders in examples (e.g., `DB_USER=student`, `DB_PASS=changeme`)
+   - If you spot a secret, rotate it and open a removal PR immediately (see [SECURITY.md](SECURITY.md))
 
 4. **Push to your fork**
    ```bash
@@ -196,6 +201,7 @@ Before submitting:
 3. **Check compatibility**
    - Test on MariaDB 10.4+
    - Test on MySQL 8.0+ (if possible)
+   - Use non-production databases and synthetic data only
 
 4. **Review documentation**
    - Update README.md if needed

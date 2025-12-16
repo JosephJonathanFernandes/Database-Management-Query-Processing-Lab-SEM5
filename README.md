@@ -3,8 +3,11 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
 [![SQL](https://img.shields.io/badge/Language-SQL-orange.svg)]()
 [![MariaDB](https://img.shields.io/badge/Database-MariaDB%2010.4-blue.svg)]()
+[![Status](https://img.shields.io/badge/Status-Learning%20%7C%20Non--Production-yellow.svg)]()
 
 > **Academic Project** | Computer Science & Engineering | Semester 5 (2024)
+
+> **Learning-only notice:** This repository is maintained as an educational lab. Do not deploy directly to production systems or use with real-world/PII datasets.
 
 ## 📚 Course Overview
 
@@ -18,6 +21,13 @@ This repository contains a comprehensive collection of database management and q
 - Working with stored procedures, triggers, and functions
 - Learning transaction management and concurrency control
 - Exploring database indexing and performance tuning
+
+## ✅ Project Status & Intended Use
+
+- Status: Active learning repository (non-production)
+- Scope: Coursework examples for database management and query processing
+- Data: Use only synthetic/sample data—never real customer or personal data
+- Secrets: Do not commit credentials, connection strings, or API keys (see [SECURITY.md](SECURITY.md))
 
 ## 📂 Repository Structure
 
@@ -183,6 +193,13 @@ Each experiment folder contains:
 - **SQL Scripts**: Complete, executable SQL code
 - **Raw Output Files**: Actual query results and outputs
 - **Typescript Files**: Terminal session recordings showing execution
+
+## 🔒 Security & Responsible Use
+
+- No secrets in this repo: remove or rotate any accidental credentials immediately (see [SECURITY.md](SECURITY.md))
+- Run scripts only in disposable dev environments; do not point at production databases
+- Use test data only—scrub any PII before sharing outputs
+- Keep local `.env` or config files untracked; sample placeholders are preferred
 
 ## 🎓 Learning Outcomes
 
