@@ -1,7 +1,74 @@
-# Visual Studio Code
-*.vscode
+# Database Management Lab - .gitignore
 
-# Text files
-*.docx
-*.dotm
-*.pdf
+# Database connection files
+*.cnf
+*.conf
+config.ini
+.env
+.env.local
+
+# Database dumps and backups
+*.dump
+*.backup
+*.bak
+*.old
+
+# MySQL/MariaDB specific
+*.ibd
+*.frm
+*.MYD
+*.MYI
+*.opt
+mysql-bin.*
+*.log
+
+# phpMyAdmin
+/phpMyAdmin/
+config.inc.php
+
+# IDE and Editor files
+.vscode/
+*.vscode
+.idea/
+*.swp
+*.swo
+*~
+
+# Document files (uncomment if you want to track these)
+# *.docx
+# *.dotm
+# *.pdf
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+Thumbs.db
+
+# Python (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node modules (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Credentials and sensitive data
+passwords.txt
+credentials.txt
+secrets.txt
